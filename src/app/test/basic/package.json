@@ -1,0 +1,16 @@
+{
+  "name": "@protobuf-ts-types/example-basic",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "private": true,
+  "scripts": {
+    "start": "tsx index.ts"
+  },
+  "author": "nathanhleung",
+  "license": "Apache-2.0",
+  "description": "",
+  "devDependencies": {
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.3"
+  }
+}
