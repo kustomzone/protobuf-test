@@ -10,7 +10,9 @@
 First, install the package.
 
 ```
-npm install https://github.com/nathanhleung/protobuf-ts-types
+git clone https://github.com/nathanhleung/protobuf-ts-types
+
+npm install
 ```
 
 Then, use it in TypeScript.
