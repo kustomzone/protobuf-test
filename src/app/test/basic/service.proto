@@ -1,0 +1,23 @@
+syntax = "proto3";
+package eliza;
+
+service Eliza {
+  rpc Say(SayRequest) returns (SayResponse);
+  rpc Introduce(IntroduceRequest) returns (IntroduceResponse);
+}
+
+message SayRequest {
+  string sentence = 1;
+}
+
+message SayResponse {
+  string sentence = 1;
+}
+
+message IntroduceRequest {
+  string name = 1;
+}
+
+message IntroduceResponse {
+  string sentence = 1;
+}

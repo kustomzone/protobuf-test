@@ -4,12 +4,16 @@
   "main": "index.ts",
   "private": true,
   "scripts": {
-    "start": "tsx index.ts"
+    "start": "tsx index.ts",
+    "build-proto": "protoc --ts_out gen --connect-web_out gen ./service.proto"
   },
   "author": "nathanhleung",
   "license": "Apache-2.0",
   "description": "",
   "devDependencies": {
+    "@bufbuild/protobuf": "^1.3.1",
+    "protoc-gen-connect-web": "^1.1.2",
+    "protoc-gen-ts": "^1.1.2",
     "tsx": "^4.19.3",
     "typescript": "^5.8.3"
   }
